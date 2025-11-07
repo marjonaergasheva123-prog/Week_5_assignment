@@ -15,7 +15,7 @@ def get_top_players(players, scores, count):
     copy_of_players=players[:]
     copy_of_scores=scores[:]
     result = []
-    for _ in range(count):
+    for i in range(count):
         highest_score=0
         highest_score_index=0
         for j in range(len(copy_of_scores)):
